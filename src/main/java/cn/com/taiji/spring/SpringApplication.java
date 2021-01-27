@@ -14,11 +14,10 @@ public class SpringApplication {
         for (String s :context.getBeanDefinitionNames()){
             System.out.println(s);
         }
-        UserServiceImpl userServiceImpl = context.getBean(UserServiceImpl.class);
 //        UserService userService1 = context.getBean(UserService.class);
 //
 //        System.out.println(userService);
 //        System.out.println(userService1);
-          userServiceImpl.save();
+//          userServiceImpl.save();
     }
 }

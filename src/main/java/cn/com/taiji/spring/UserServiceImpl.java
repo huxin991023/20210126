@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 
-@Service
+@Service("UserService")
 //@Scope("prototype")  多例
 public class UserServiceImpl implements UserService {
     @Autowired
